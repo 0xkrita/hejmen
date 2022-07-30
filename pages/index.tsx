@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Link from 'next/link'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Placeholder from '../components/Placeholder';
 
 const Home: NextPage = () => {
   return (
@@ -10,9 +10,9 @@ const Home: NextPage = () => {
         <meta name="description" content="portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>WHILE THIS IS STILL WIP, CHECK OUT MY <Link href='https://github.com/0xkrita/znft-indra'>CODE</Link></h1>
+      <Placeholder />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
